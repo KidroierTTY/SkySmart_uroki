@@ -1,11 +1,6 @@
-import os
 import random
-
-clear = lambda: os.system('cls')
-
 print('Привет! Я загадал слово, твоя задача - угадать его по буквам.')
 input('*Нажми Enter, чтобы продолжить*')
-clear()
 print('Поехали!')
 
 
@@ -33,7 +28,6 @@ while hp > 0:
 
     letter = input('Введите букву: ')
     letters.append(letter)
-    clear()
 
     if letter not in word:
         hp -= 1
