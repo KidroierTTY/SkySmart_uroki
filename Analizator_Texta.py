@@ -1,4 +1,6 @@
-# подготовка текста к анализу    
+from typing import Counter
+
+# подготовка текста к анализу
 
 text = input("Введите текст: ")
 text = text.lower()
@@ -12,11 +14,11 @@ words = text.split()
 
 # анализ текста
 
-word_frequency = ...
+word_frequency = Counter(words)
 
 # вывод результатов
 
-print("Количество разных слов:", ...)
+print("Количество разных слов:", int(word_frequency.most_common()[0][1]))
 print("Частота слов:")
 for word, frequency in word_frequency.items():
     print(f"{word}: {frequency}")
