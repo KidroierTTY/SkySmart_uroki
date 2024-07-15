@@ -26,3 +26,26 @@
 # def num(num):
 #     print(num * 1.8 + 32)
 # num(ada)
+
+# import random
+#
+# simbols = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+#
+# def generate_password(n=6): # Продолжи решение тут
+#     password = ''
+#     for i in range(n):
+#         sim = random.choice(simbols)
+#         password += sim
+#     return password
+#
+# generate_password()
+
+# new_data = map(int, ['14', '51', '23', '43', '87'])   # передаем функцию int аргументом
+# print(new_data)
+# new_data = list(new_data)   # map не знает, в какую структуру данных нам нужно поместить полученные данные, поэтому превращаем map-объект в список
+# print(new_data)   # [14, 51, 23, 43, 87]
+
+data = map(float, ['55.435656', '23.678546', '76.542465', '10.43433345', '84.323454524', '43.546784132'])
+print(data)
+data = list(data)
+print(data)

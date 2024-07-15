@@ -27,28 +27,35 @@
 
 
 
-text = input("Введите текст: ")
-text = text.lower()
+# text = input("Введите текст: ")
+# text = text.lower()
+#
+# punctuation = [".", ",", "!", "?"]
+#
+# for char in punctuation:
+#     text = text.replace(char, "")
+#
+# words = text.split()
+#
+# # анализ текста
+#
+# word_frequency = {}
+#
+# for word in words:
+#     if word in word_frequency:
+#         word_frequency[word] += 1
+#     else:
+#         word_frequency[word] = 1
+# # вывод результатов
+#
+# print("Количество разных слов:", len(word_frequency))
+# print("Частота слов:")
+# for word, frequency in word_frequency.items():
+#     print(f"{word}: {frequency}")
 
-punctuation = [".", ",", "!", "?"]
+# Напиши решение тут
+# def sum_nums(num, num1):
+# 	return num + num1
+#
+# print(sum_nums(15, 20))
 
-for char in punctuation:
-    text = text.replace(char, "")
-
-words = text.split()
-
-# анализ текста
-
-word_frequency = {}
-
-for word in words:
-    if word in word_frequency:
-        word_frequency[word] += 1
-    else:
-        word_frequency[word] = 1
-# вывод результатов
-
-print("Количество разных слов:", len(word_frequency))
-print("Частота слов:")
-for word, frequency in word_frequency.items():
-    print(f"{word}: {frequency}")
